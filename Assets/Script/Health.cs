@@ -6,13 +6,16 @@ public class Health : MonoBehaviour
 {
     public float dogh, dogmaxh, dogdecreaseh;
     public float water, watermaxh, waterdecreaseh;
+    public GameObject dog;
+    Animator anim;
 
-    public GameObject HealthBar, DogBar, WaterBar;
+    public GameObject DogBar, WaterBar;
     void Start()
     {
        
         dogh = dogmaxh;
         water = watermaxh;
+        anim = dog.GetComponent<Animator>();
         
     }
 
@@ -20,6 +23,21 @@ public class Health : MonoBehaviour
     {
         DogBar.transform.localScale = new Vector2(dogh / dogmaxh, 1);
         WaterBar.transform.localScale = new Vector2(water / watermaxh, 1);
+
+        if (anim.GetBool("isDog") == true)
+        {
+            water += waterdecreaseh * Time.deltaTime;
+            dogh += dogdecreaseh * Time.deltaTime;
+        }
+        else
+        {
+            water -= waterdecreaseh * Time.deltaTime;
+
+            if (water <= 50)
+            {
+                dogh -= dogdecreaseh * Time.deltaTime;
+            }
+        }
 
         
         
@@ -41,20 +59,10 @@ public class Health : MonoBehaviour
         {
             water = watermaxh;
         }
-        if (water > 0)
-        {
-            water -= waterdecreaseh * Time.deltaTime;
-        }
+       
 
-        //water and dog
-        if(water<=0)
-        {
-            dogh -= dogdecreaseh * 2 * Time.deltaTime;
-        }
-        if(water <= 50)
-        {
-            dogh -= dogdecreaseh  * Time.deltaTime;
-        }
         
     }
+
+    
 }

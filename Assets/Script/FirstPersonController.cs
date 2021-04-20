@@ -43,6 +43,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public GameObject cameraOne, cameraTwo;
+        private bool cameraBool = true;
+
         // Use this for initialization
         private void Start()
         {
@@ -82,6 +85,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            if (Input.GetKeyUp(KeyCode.T) && cameraOne.active == true) 
+            {
+                cameraTwo.SetActive(true);
+                cameraOne.SetActive(false);
+
+            }
+            else if (Input.GetKeyUp(KeyCode.T) && cameraTwo.active == true)
+            {
+                cameraOne.SetActive(true);
+                cameraTwo.SetActive(false);
+            }
+
+
         }
 
 
