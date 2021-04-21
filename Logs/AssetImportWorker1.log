@@ -15,11 +15,11 @@ C:/Users/vahde/Desktop/DefeatFearYour/DefeatYourFear
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59683
+50798
 Successfully changed project path to: C:/Users/vahde/Desktop/DefeatFearYour/DefeatYourFear
 C:/Users/vahde/Desktop/DefeatFearYour/DefeatYourFear
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,1084 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004282 seconds.
+Registered in 0.001584 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.147 seconds
+- Completed reload, in  1.024 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001520 seconds.
+Registered in 0.000740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.678 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1269 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1761.
+Total: 2.564000 ms (FindLiveObjects: 0.457900 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.000500 ms  DeleteObjects: 0.032700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14aac13c9c0f9e6d8400d05be6db592') in 1.096350 seconds
+  Import took 1.243138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.987721 seconds.
+  path: Assets/cynophobia/Walking.fbx
+  artifactKey: Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Walking.fbx using Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41209678ae1f8ff7198628cc1a78316d') in 0.414306 seconds
+  Import took 0.491227 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.807 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1764.
+Total: 3.375800 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.972700 ms  DeleteObjects: 0.032600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.757929 seconds.
+  path: Assets/cynophobia/Walking.fbx
+  artifactKey: Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Walking.fbx using Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c649dceec8312bbca04db19c4d07143e') in 0.055158 seconds
+  Import took 0.099234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.111496 seconds.
+  path: Assets/cynophobia/Walking.fbx
+  artifactKey: Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Walking.fbx using Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c51286ebbe698a7f3dfc76974fedc') in 0.010834 seconds
+  Import took 0.036425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008377 seconds.
+  path: Assets/cynophobia/Walking.fbx
+  artifactKey: Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Walking.fbx using Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c51286ebbe698a7f3dfc76974fedc') in 0.018189 seconds
+  Import took 0.024417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.074166 seconds.
+  path: Assets/cynophobia/Walking.fbx
+  artifactKey: Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Walking.fbx using Guid(a26e70c329879e34398fc318dfed8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228d40977587174e4945d8296255f373') in 0.011779 seconds
+  Import took 0.072457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.408 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1767.
+Total: 3.594300 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.968400 ms  DeleteObjects: 0.030400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.842684 seconds.
+  path: Assets/cynophobia/Kneel (1).fbx
+  artifactKey: Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbx using Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd9d72967455c679d428d3e2c637b18') in 2.886638 seconds
+  Import took 2.944972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.913347 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm
+  artifactKey: Guid(b5bdda4f90e5be14a907abd40a20c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm using Guid(b5bdda4f90e5be14a907abd40a20c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24778b007cb0933ea92c191f6732815e') in 0.064332 seconds
+  Import took 0.107346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551136 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Body_Diffuse.png
+  artifactKey: Guid(a75e0dd400cc67c4f9c5d889fee76b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Body_Diffuse.png using Guid(a75e0dd400cc67c4f9c5d889fee76b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.473544 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_body_diffuse.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5735263Z' while content on disk has modification time of '2021-04-21T09:44:29.2572945Z'
+  Import took 0.488295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png using Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.221748 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5535788Z' while content on disk has modification time of '2021-04-21T09:44:29.1854859Z'
+  Import took 0.243753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png using Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.119931 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4159519Z' while content on disk has modification time of '2021-04-21T09:44:28.5702698Z'
+  Import took 0.162811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(5d4ad0fe58c870544b968b9792dfd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Specular.png using Guid(5d4ad0fe58c870544b968b9792dfd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.201581 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4269156Z' while content on disk has modification time of '2021-04-21T09:44:28.5742552Z'
+  Import took 0.216860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003753 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png using Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.142198 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5535788Z' while content on disk has modification time of '2021-04-21T09:44:29.1854859Z'
+  Import took 0.156385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002485 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png using Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.108862 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4159519Z' while content on disk has modification time of '2021-04-21T09:44:28.5702698Z'
+  Import took 0.122573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020281 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png using Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.198506 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5535788Z' while content on disk has modification time of '2021-04-21T09:44:29.1854859Z'
+  Import took 0.220859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png using Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.123168 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4159519Z' while content on disk has modification time of '2021-04-21T09:44:28.5702698Z'
+  Import took 0.133669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004489 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(5d4ad0fe58c870544b968b9792dfd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Specular.png using Guid(5d4ad0fe58c870544b968b9792dfd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.084926 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4269156Z' while content on disk has modification time of '2021-04-21T09:44:28.5742552Z'
+  Import took 0.094819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png using Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.149282 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5535788Z' while content on disk has modification time of '2021-04-21T09:44:29.1854859Z'
+  Import took 0.161350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Normal.png using Guid(19828c5b3fafbfe499bea11a71b8ea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.077390 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4159519Z' while content on disk has modification time of '2021-04-21T09:44:28.5702698Z'
+  Import took 0.102441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005566 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Gloss.png using Guid(093c81d189a5d16408c6d5941d217a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.099907 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5535788Z' while content on disk has modification time of '2021-04-21T09:44:29.1854859Z'
+  Import took 0.129672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002205 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(5d4ad0fe58c870544b968b9792dfd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Specular.png using Guid(5d4ad0fe58c870544b968b9792dfd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.080231 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4269156Z' while content on disk has modification time of '2021-04-21T09:44:28.5742552Z'
+  Import took 0.118159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022345 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(fbda3ea18802f614eaba659cf60214bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Diffuse.png using Guid(fbda3ea18802f614eaba659cf60214bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.091443 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_bottom_diffuse.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4368976Z' while content on disk has modification time of '2021-04-21T09:44:28.6510506Z'
+  Import took 0.098138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Diffuse.png
+  artifactKey: Guid(cf57adacb79a48644b08cc73a192c5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Diffuse.png using Guid(cf57adacb79a48644b08cc73a192c5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.129778 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_diffuse.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.53263Z' while content on disk has modification time of '2021-04-21T09:44:29.026994Z'
+  Import took 0.134459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Specular.png
+  artifactKey: Guid(1e315c4b5be9993458a21b532f2d5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Specular.png using Guid(1e315c4b5be9993458a21b532f2d5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.195644 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5455959Z' while content on disk has modification time of '2021-04-21T09:44:29.1317021Z'
+  Import took 0.200589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Normal.png
+  artifactKey: Guid(0133fefdc70fa76409fce6cc6f21bd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Normal.png using Guid(0133fefdc70fa76409fce6cc6f21bd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.089234 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5406109Z' while content on disk has modification time of '2021-04-21T09:44:29.0708667Z'
+  Import took 0.096512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Normal.png
+  artifactKey: Guid(90253507143f32a4d8adc84817e2968c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Normal.png using Guid(90253507143f32a4d8adc84817e2968c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.142317 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_shoes_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4947452Z' while content on disk has modification time of '2021-04-21T09:44:28.8859233Z'
+  Import took 0.150247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Gloss.png
+  artifactKey: Guid(2316b4a7799964d47b5c7058cefb4fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Gloss.png using Guid(2316b4a7799964d47b5c7058cefb4fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.273829 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_shoes_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.526663Z' while content on disk has modification time of '2021-04-21T09:44:28.9712245Z'
+  Import took 0.283752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Top_Opacity.png
+  artifactKey: Guid(4c5f7f90d840fe64f8fd0262dbd9f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Top_Opacity.png using Guid(4c5f7f90d840fe64f8fd0262dbd9f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.243116 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_top_opacity.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5426031Z' while content on disk has modification time of '2021-04-21T09:44:29.0728598Z'
+  Import took 0.258299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Gloss.png
+  artifactKey: Guid(b0b728bc3a273c948aa4753992ef1269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Gloss.png using Guid(b0b728bc3a273c948aa4753992ef1269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.319363 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_bottom_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4698047Z' while content on disk has modification time of '2021-04-21T09:44:28.8300764Z'
+  Import took 0.352665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017571 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Body_Gloss.png
+  artifactKey: Guid(45ec58c638b5976418efb11a9a93ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Body_Gloss.png using Guid(45ec58c638b5976418efb11a9a93ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.472378 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_body_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.618413Z' while content on disk has modification time of '2021-04-21T09:44:29.4302336Z'
+  Import took 0.645242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(57903389629271f46aad6a277953cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Diffuse.png using Guid(57903389629271f46aad6a277953cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.079839 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_shoes_diffuse.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4777769Z' while content on disk has modification time of '2021-04-21T09:44:28.8330658Z'
+  Import took 0.090570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002977 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Body_Diffuse.png
+  artifactKey: Guid(a75e0dd400cc67c4f9c5d889fee76b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Body_Diffuse.png using Guid(a75e0dd400cc67c4f9c5d889fee76b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.073930 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_body_diffuse.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5735263Z' while content on disk has modification time of '2021-04-21T09:44:29.2572945Z'
+  Import took 0.090155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Normal.png
+  artifactKey: Guid(3069ae8a45ad8614498619f2b3838b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Normal.png using Guid(3069ae8a45ad8614498619f2b3838b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.162870 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_bottom_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4548416Z' while content on disk has modification time of '2021-04-21T09:44:28.7133833Z'
+  Import took 0.199261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Body_Normal.png
+  artifactKey: Guid(4493e6b54324a10408be2d9134ab6fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Body_Normal.png using Guid(4493e6b54324a10408be2d9134ab6fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.072878 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_body_normal.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5934677Z' while content on disk has modification time of '2021-04-21T09:44:29.331531Z'
+  Import took 0.082370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Body_Opacity.png
+  artifactKey: Guid(8ad4f658f6a435a408a8d0c0b5ea3090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Body_Opacity.png using Guid(8ad4f658f6a435a408a8d0c0b5ea3090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.306285 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_body_opacity.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5954625Z' while content on disk has modification time of '2021-04-21T09:44:29.3334819Z'
+  Import took 0.323138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009626 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Opacity.png
+  artifactKey: Guid(892975030141a3d4da5199ac0f2a3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Opacity.png using Guid(892975030141a3d4da5199ac0f2a3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.172248 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_bottom_opacity.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4588268Z' while content on disk has modification time of '2021-04-21T09:44:28.7562652Z'
+  Import took 0.193168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007439 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Specular.png
+  artifactKey: Guid(df41e493406ba9a4d808da0de35f9300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Specular.png using Guid(df41e493406ba9a4d808da0de35f9300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.299141 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_shoes_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.5037067Z' while content on disk has modification time of '2021-04-21T09:44:28.9442934Z'
+  Import took 0.314315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Gloss.png
+  artifactKey: Guid(b51fbced113daf14495c4f679d7e902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Gloss.png using Guid(b51fbced113daf14495c4f679d7e902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.126565 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_gloss.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4299058Z' while content on disk has modification time of '2021-04-21T09:44:28.6141484Z'
+  Import took 0.143220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009499 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Opacity.png
+  artifactKey: Guid(c97bb0d0a168c854a9b2d2a27aeba581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Opacity.png using Guid(c97bb0d0a168c854a9b2d2a27aeba581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.199737 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_opacity.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4219276Z' while content on disk has modification time of '2021-04-21T09:44:28.5722602Z'
+  Import took 0.211782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001184 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Specular.png
+  artifactKey: Guid(071c7b5e272f0e04fa83822a71519b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Bottom_Specular.png using Guid(071c7b5e272f0e04fa83822a71519b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.329959 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_bottom_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4628354Z' while content on disk has modification time of '2021-04-21T09:44:28.7971639Z'
+  Import took 0.340733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Opacity.png
+  artifactKey: Guid(82c11c18e02e2ee47abaa90c72034c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Shoes_Opacity.png using Guid(82c11c18e02e2ee47abaa90c72034c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.333022 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_shoes_opacity.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4997232Z' while content on disk has modification time of '2021-04-21T09:44:28.9253516Z'
+  Import took 0.339591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Diffuse.png
+  artifactKey: Guid(c0fbefbfa9413e742bad7da1b678b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Hair_Diffuse.png using Guid(c0fbefbfa9413e742bad7da1b678b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028596 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_hair_diffuse.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.4099759Z' while content on disk has modification time of '2021-04-21T09:44:28.5563028Z'
+  Import took 0.033674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042421 seconds.
+  path: Assets/cynophobia/Kneel (1).fbm/Remy_Body_Specular.png
+  artifactKey: Guid(1a799f9b9d5ba944a8ca928635fb15a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbm/Remy_Body_Specular.png using Guid(1a799f9b9d5ba944a8ca928635fb15a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.154320 seconds
+  ERROR: Build asset version error: assets/cynophobia/kneel (1).fbm/remy_body_specular.png in SourceAssetDB has modification time of '2021-04-20T13:29:10.6084341Z' while content on disk has modification time of '2021-04-21T09:44:29.4132818Z'
+  Import took 0.165830 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.014 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 3.375800 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.889700 ms  DeleteObjects: 0.035400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.326999 seconds.
+  path: Assets/SampleScenes/Prefabs/Box.prefab
+  artifactKey: Guid(d29ba28bd5caaed429838de8bac7be72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Box.prefab using Guid(d29ba28bd5caaed429838de8bac7be72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db1723d9fb13f06ce95c6eed390f174') in 1.049107 seconds
+  Import took 1.087937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/SampleScenes/Prefabs/GoalPosts.prefab
+  artifactKey: Guid(6df3f650b33fa604cb3f5923fa50d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GoalPosts.prefab using Guid(6df3f650b33fa604cb3f5923fa50d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d790a4a2b08dee64e80b4822618d22e') in 0.233511 seconds
+  Import took 0.267388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/SampleScenes/Prefabs/Wall.prefab
+  artifactKey: Guid(fef5fcb209dce49409117a24775dfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Wall.prefab using Guid(fef5fcb209dce49409117a24775dfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecf3fc764aa10ad1adbbf1502554f97') in 0.203850 seconds
+  Import took 0.247801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013151 seconds.
+  path: Assets/SampleScenes/Prefabs/GroundTrack.prefab
+  artifactKey: Guid(f7afdcb1eabdee54790f55f84e3e4ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GroundTrack.prefab using Guid(f7afdcb1eabdee54790f55f84e3e4ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49f6b4d90b3a6605382db448530f369') in 0.396375 seconds
+  Import took 0.425492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/SampleScenes/Prefabs/Loop.prefab
+  artifactKey: Guid(a2dd655bfef0f0849a2c33d8fb4a029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Loop.prefab using Guid(a2dd655bfef0f0849a2c33d8fb4a029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480372bd74fff0cd773b6051d667bd78') in 0.299334 seconds
+  Import took 0.321371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/SampleScenes/Prefabs/Pillar.prefab
+  artifactKey: Guid(d23a205aa0ed1234ba0a327f1232ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Pillar.prefab using Guid(d23a205aa0ed1234ba0a327f1232ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438ffb4ecae147717b64e4ab86cffef') in 0.305631 seconds
+  Import took 0.332513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/SampleScenes/Prefabs/SmashBoxes.prefab
+  artifactKey: Guid(b592d2faa93e6ad46a6d520adf8f123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/SmashBoxes.prefab using Guid(b592d2faa93e6ad46a6d520adf8f123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a047370ec8dc38351a8869a59fb2f88d') in 0.475984 seconds
+  Import took 0.493735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab
+  artifactKey: Guid(b3495d363d7ccba40bc3e92c1a184e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab using Guid(b3495d363d7ccba40bc3e92c1a184e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d416b8b7f06ba86c45c38b67660e904') in 0.108989 seconds
+  Import took 0.122263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/SampleScenes/Prefabs/ResetterUI.prefab
+  artifactKey: Guid(28e490010bed5ea47a8a69e81bdd0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/ResetterUI.prefab using Guid(28e490010bed5ea47a8a69e81bdd0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b2d4f36ec7f69845b863eff0a2db2f') in 0.027145 seconds
+  Import took 0.058701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001874 seconds.
+  path: Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab
+  artifactKey: Guid(76d89ae3180ce424ba0da8fc43e02035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab using Guid(76d89ae3180ce424ba0da8fc43e02035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb685194a51e8429e30839cd928b292') in 0.047946 seconds
+  Import took 0.073153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/SampleScenes/Prefabs/House.prefab
+  artifactKey: Guid(cd3018213230a5c49a0e0f4609a10b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/House.prefab using Guid(cd3018213230a5c49a0e0f4609a10b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1937b73f4a4503b15fdd2949ae961b4e') in 0.186009 seconds
+  Import took 0.210587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/SampleScenes/Prefabs/LevelResetUI.prefab
+  artifactKey: Guid(d2aaa8a2832d77144aa84d5d309ae2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/LevelResetUI.prefab using Guid(d2aaa8a2832d77144aa84d5d309ae2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573a43e6991c634444bc17cae97958e9') in 0.064191 seconds
+  Import took 0.080037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/SampleScenes/Prefabs/Ring.prefab
+  artifactKey: Guid(e9aa4b7def958e54bad9089e96b5a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Ring.prefab using Guid(e9aa4b7def958e54bad9089e96b5a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928a572434cf85f7a8a14686f8511166') in 0.152044 seconds
+  Import took 0.204388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/SampleScenes/Prefabs/GroundArena.prefab
+  artifactKey: Guid(2799e6cfaf283a84e883ca79ffce608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GroundArena.prefab using Guid(2799e6cfaf283a84e883ca79ffce608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eafed5ad25f23351ba96c3de148eb9') in 0.154678 seconds
+  Import took 0.206852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/SampleScenes/Prefabs/BoxSmall.prefab
+  artifactKey: Guid(75c27bf47f501a74fa5723911612c226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/BoxSmall.prefab using Guid(75c27bf47f501a74fa5723911612c226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b9746b9751599772a64332b46bc7ff') in 0.077135 seconds
+  Import took 0.112818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/SampleScenes/Prefabs/BoxPile.prefab
+  artifactKey: Guid(ff3366103894bec429eeaa9b86b595e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/BoxPile.prefab using Guid(ff3366103894bec429eeaa9b86b595e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6393521803544c8b0252253f011f936c') in 0.080855 seconds
+  Import took 0.088142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/SampleScenes/Prefabs/GroundObstacles.prefab
+  artifactKey: Guid(95bbe2885334e3c46b79c3419edb469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GroundObstacles.prefab using Guid(95bbe2885334e3c46b79c3419edb469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349b28a01009db8c627af8f157cf7b86') in 0.128269 seconds
+  Import took 0.188506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/SampleScenes/Prefabs/CameraSwitch.prefab
+  artifactKey: Guid(fdc378243b95c2144aa66bfc382d1b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/CameraSwitch.prefab using Guid(fdc378243b95c2144aa66bfc382d1b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180517d0c3a090b2a8c36b35dd74f3eb') in 0.161716 seconds
+  Import took 0.231531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/SampleScenes/Prefabs/GroundRunway.prefab
+  artifactKey: Guid(00690c0e075198740bd736a4731c7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GroundRunway.prefab using Guid(00690c0e075198740bd736a4731c7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8746d1ae9831d1e3f6dc7a7df2f7178') in 0.282053 seconds
+  Import took 0.316485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/SampleScenes/Prefabs/Pickup.prefab
+  artifactKey: Guid(2ed830309d1c9f640a65bf22d9060af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Pickup.prefab using Guid(2ed830309d1c9f640a65bf22d9060af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53367313f04b5e1c34184b37369fe14') in 0.329757 seconds
+  Import took 0.397720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/SampleScenes/Prefabs/Sea.prefab
+  artifactKey: Guid(92718a1040bbb9a4ab571265d9087f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Sea.prefab using Guid(92718a1040bbb9a4ab571265d9087f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff1f562cf0c001646ef6e09e9778ce8') in 0.023095 seconds
+  Import took 0.065274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.463808 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+  artifactKey: Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab using Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7886d3b2c86e887cf7e320c7daaa5068') in 1.948208 seconds
+  Import took 1.961865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+  artifactKey: Guid(7737647c22c1fc64a88d5cd030c352ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab using Guid(7737647c22c1fc64a88d5cd030c352ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4cad34a4b03acf5575b3ca00d85748') in 0.018246 seconds
+  Import took 0.046091 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1787.
+Total: 6.919100 ms (FindLiveObjects: 0.483700 ms CreateObjectMapping: 0.194600 ms MarkObjects: 6.172600 ms  DeleteObjects: 0.062800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.825792 seconds.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8199d3580a15c73d3e119f3d66c86b') in 0.111002 seconds
+  Import took 0.152728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.340709 seconds.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8199d3580a15c73d3e119f3d66c86b') in 0.004985 seconds
+  Import took 0.011179 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 5.930200 ms (FindLiveObjects: 0.849100 ms CreateObjectMapping: 0.348400 ms MarkObjects: 4.668100 ms  DeleteObjects: 0.059400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.179292 seconds.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb300b69eddf881e96ff25670f3367ae') in 0.312201 seconds
+  Import took 0.353356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.851197 seconds.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb300b69eddf881e96ff25670f3367ae') in 0.005830 seconds
+  Import took 0.011195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1793.
+Total: 3.287900 ms (FindLiveObjects: 0.502700 ms CreateObjectMapping: 0.101600 ms MarkObjects: 2.654000 ms  DeleteObjects: 0.027300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.102397 seconds.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2327cc63f42cc1727b8d8f3c7e2eb87f') in 0.054183 seconds
+  Import took 0.077441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.534539 seconds.
+  path: Assets/cynophobia/chaController.controller
+  artifactKey: Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chaController.controller using Guid(0bcf8369f396c404b8685e0914ca3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2327cc63f42cc1727b8d8f3c7e2eb87f') in 0.005668 seconds
+  Import took 0.011320 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1796.
+Total: 31.417100 ms (FindLiveObjects: 1.016700 ms CreateObjectMapping: 4.411600 ms MarkObjects: 25.891400 ms  DeleteObjects: 0.090900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.069006 seconds.
+  path: Assets/cynophobia/Kneel (1).fbx
+  artifactKey: Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbx using Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012bc2b99490f8ac6b304c5e6d4b4c7f') in 2.503435 seconds
+  Import took 2.554924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.090289 seconds.
+  path: Assets/cynophobia/Kneel (1).fbx
+  artifactKey: Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbx using Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012bc2b99490f8ac6b304c5e6d4b4c7f') in 1.043386 seconds
+  Import took 1.110335 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1800.
+Total: 6.548200 ms (FindLiveObjects: 0.876200 ms CreateObjectMapping: 0.492900 ms MarkObjects: 5.137900 ms  DeleteObjects: 0.034300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.113935 seconds.
+  path: Assets/cynophobia/Kneel (1).fbx
+  artifactKey: Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbx using Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeef0296cabe45e915d1ed7eac00a08') in 0.659363 seconds
+  Import took 0.699973 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1804.
+Total: 1.950000 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.680900 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.411561 seconds.
+  path: Assets/cynophobia/Kneel (1).fbx
+  artifactKey: Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/Kneel (1).fbx using Guid(4232a20175f28d342b1a186fc2152b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d59eb70f405d68b82a7c287b3162e2d') in 0.211297 seconds
+  Import took 0.253271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.430619 seconds.
+  path: Assets/cynophobia/cacontroller.controller
+  artifactKey: Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/cacontroller.controller using Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ac8c756f2833a3988fc097f10fc056') in 0.094086 seconds
+  Import took 0.120904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061715 seconds.
+  path: Assets/cynophobia/cacontroller.controller
+  artifactKey: Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/cacontroller.controller using Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ac8c756f2833a3988fc097f10fc056') in 0.002635 seconds
+  Import took 0.006686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.580628 seconds.
+  path: Assets/cynophobia/chacontroller.controller
+  artifactKey: Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chacontroller.controller using Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803cb7992cd4a12a8de60f78d162b2b0') in 0.006549 seconds
+  Import took 0.019920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021903 seconds.
+  path: Assets/cynophobia/chacontroller.controller
+  artifactKey: Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cynophobia/chacontroller.controller using Guid(57787a0ed832f6d4b831de24fdf62bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803cb7992cd4a12a8de60f78d162b2b0') in 0.002881 seconds
+  Import took 0.041124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.538691 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller
+  artifactKey: Guid(e2cf68ff4b1ffda45a77f7307dd789b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller using Guid(e2cf68ff4b1ffda45a77f7307dd789b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2413db9f65230679ef21aad3b58d8f8') in 0.119320 seconds
+  Import took 0.145933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.037493 seconds.
+  path: Assets/Simple city plain
+  artifactKey: Guid(8e7eb0132f0e78147bf16fa0b62ef571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain using Guid(8e7eb0132f0e78147bf16fa0b62ef571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8f06fdffd2c126b5f28422cd00e22c') in 0.072578 seconds
+  Import took 0.095560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173815 seconds.
+  path: Assets/SimplePoly - Town Pack
+  artifactKey: Guid(f85507e9e6745a74b984bb84ad06d7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack using Guid(f85507e9e6745a74b984bb84ad06d7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0346010a16e6f55107b2ae1bf9d92f3a') in 0.017351 seconds
+  Import took 0.029666 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1808.
+Total: 2.032600 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.108600 ms MarkObjects: 1.614100 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 2.116600 ms (FindLiveObjects: 0.191900 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.866000 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.215 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1814.
+Total: 3.304800 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.876200 ms  DeleteObjects: 0.029500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001264 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 1.987500 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.719500 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1820.
+Total: 3.850500 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.102300 ms MarkObjects: 3.297000 ms  DeleteObjects: 0.101600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5789.214235 seconds.
+  path: Assets/Scenes/acrophobia.unity
+  artifactKey: Guid(f2d3ba358854c6940ad66a1fb2fb4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/acrophobia.unity using Guid(f2d3ba358854c6940ad66a1fb2fb4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfafdcabff93c6b561780bdfaf0c1d6') in 0.644963 seconds
+  Import took 0.700214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.893650 seconds.
+  path: Assets/Scenes/cinophobia.unity
+  artifactKey: Guid(3ccedbb5619d2cb49a36849372b488de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cinophobia.unity using Guid(3ccedbb5619d2cb49a36849372b488de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ce3ba514471792f42366be4befd753') in 0.103281 seconds
+  Import took 0.287763 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.130595 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
@@ -59,102 +1121,14 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1269 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.7 MB.
-System memory in use after: 93.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1761.
-Total: 2.096100 ms (FindLiveObjects: 0.242200 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.779200 ms  DeleteObjects: 0.041200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/cynophobia/Humananim.controller
-  artifactKey: Guid(62cecb2de61dde443bddc829ed68f5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cynophobia/Humananim.controller using Guid(62cecb2de61dde443bddc829ed68f5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752dcfad7588d65ac9a050fdffdf357b') in 0.243846 seconds
-  Import took 0.290394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.847740 seconds.
-  path: Assets/Dog - Tatra Sheepdog/DogController.controller
-  artifactKey: Guid(d6e74bff3931b5a439c813b13c123b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dog - Tatra Sheepdog/DogController.controller using Guid(d6e74bff3931b5a439c813b13c123b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a18c64faab91708d743bbb29a961830') in 0.214952 seconds
-  Import took 0.247645 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000872 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
+- Completed reload, in  5.276 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.9 MB.
-System memory in use after: 91.0 MB.
+System memory in use before: 108.8 MB.
+System memory in use after: 108.9 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1764.
-Total: 1.761800 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.476100 ms  DeleteObjects: 0.014000 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 2.999900 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.652400 ms  DeleteObjects: 0.103400 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001504 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.261 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.9 MB.
-System memory in use after: 91.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1767.
-Total: 3.344000 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.923300 ms  DeleteObjects: 0.029700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1770.
-Total: 1.963800 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.664400 ms  DeleteObjects: 0.014000 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
