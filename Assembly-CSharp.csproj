@@ -64,11 +64,12 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-    <Compile Include="Assets\DogAnimation.cs" />
+    <Compile Include="Assets\Script\DogAnimation.cs" />
     <Compile Include="Assets\Script\Health.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
     <Compile Include="Assets\cynophobia\Medieval_house_lite\Fire\LightFlickerEffect.cs" />
+    <Compile Include="Assets\Script\Move.cs" />
     <Compile Include="Assets\Script\SimpleCharacterControlFree.cs" />
     <Compile Include="Assets\SimplePoly - Town Pack\DemoScene\FlyCamera.cs" />
     <Compile Include="Assets\Script\Questionscript.cs" />

@@ -43,8 +43,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
-        public GameObject cameraOne, cameraTwo;
-        private bool cameraBool = true;
+        
+
+        Animator anim;
+        public GameObject cha;
 
         // Use this for initialization
         private void Start()
@@ -59,6 +61,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            anim = cha.GetComponent<Animator>();
         }
 
 
@@ -86,17 +89,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
 
-            if (Input.GetKeyUp(KeyCode.T) && cameraOne.active == true) 
-            {
-                cameraTwo.SetActive(true);
-                cameraOne.SetActive(false);
-
-            }
-            else if (Input.GetKeyUp(KeyCode.T) && cameraTwo.active == true)
-            {
-                cameraOne.SetActive(true);
-                cameraTwo.SetActive(false);
-            }
+            
 
 
         }
@@ -149,6 +142,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             UpdateCameraPosition(speed);
 
             m_MouseLook.UpdateCursorLock();
+
+            if (Input.GetKey(KeyCode.W))
+            {
+
+                anim.SetBool("isWalk", true);
+            }
+            else
+            {
+                anim.SetBool("isWalk", false);
+            }
         }
 
 
