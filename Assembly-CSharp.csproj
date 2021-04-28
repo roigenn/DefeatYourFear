@@ -67,20 +67,16 @@
     <Compile Include="Assets\Script\DogAnimation.cs" />
     <Compile Include="Assets\Script\Health.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
-    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
     <Compile Include="Assets\cynophobia\Medieval_house_lite\Fire\LightFlickerEffect.cs" />
     <Compile Include="Assets\Script\Move.cs" />
-    <Compile Include="Assets\Script\SimpleCharacterControlFree.cs" />
     <Compile Include="Assets\SimplePoly - Town Pack\DemoScene\FlyCamera.cs" />
     <Compile Include="Assets\Script\Questionscript.cs" />
-    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogicFree.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\FreeCelShader.shader" />
      <None Include="Assets\Dog - Tatra Sheepdog\Model\tatrasheepdog_sv_ip_mx.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

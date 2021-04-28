@@ -7,10 +7,11 @@ public class Move : MonoBehaviour
 
     public GameObject cameraOne, cameraTwo;
     private bool cameraBool = true;
+   
 
     void Start()
     {
-
+   
 
     }
 
@@ -29,7 +30,7 @@ public class Move : MonoBehaviour
             cameraOne.SetActive(true);
             cameraTwo.SetActive(false);
         }
-
+       
     }
 
 }
