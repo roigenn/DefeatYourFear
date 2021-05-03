@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MAinMenu.unity
+- path: Assets/Scenes/cinophobia.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
