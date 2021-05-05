@@ -21,24 +21,20 @@ public class DogAnimation : MonoBehaviour
         
     }
 
-    private void Update()
-    {
-       
-    }
 
-    private void FixedUpdate()
+    public void FixedUpdate()
     {
         
         if(icerde == true)
         {
-            if (Input.GetKeyDown(KeyCode.E) && cameraOne.active == true)
+            if (Input.GetKeyDown(KeyCode.E) && cameraOne.activeSelf)
             {
                 cameraTwo.SetActive(true);
                 cameraOne.SetActive(false);
                 anim2.SetBool("dogLove", true);
 
             }
-            else if (Input.GetKeyDown(KeyCode.E) && cameraTwo.active == true)
+            else if (Input.GetKeyDown(KeyCode.E) && cameraTwo.activeSelf)
             {
                 cameraOne.SetActive(true);
                 cameraTwo.SetActive(false);

@@ -59,7 +59,8 @@
      <Compile Include="Assets\Script\Health.cs" />
      <Compile Include="Assets\Script\MainMenu.cs" />
      <Compile Include="Assets\cynophobia\Medieval_house_lite\Fire\LightFlickerEffect.cs" />
-     <Compile Include="Assets\Script\Move.cs" />
+     <Compile Include="Assets\Script\MoveAcro.cs" />
+     <Compile Include="Assets\Script\cynophobiapanel.cs" />
      <Compile Include="Assets\SimplePoly - Town Pack\DemoScene\FlyCamera.cs" />
      <Compile Include="Assets\Script\Questionscript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
